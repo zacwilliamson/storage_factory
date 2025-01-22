@@ -19,7 +19,7 @@ contract StorageFactory {
         uint256 _simpleStorageNumber
     ) public {
         // Address
-        // ABI
+        // ABI - Application binary interface
         // SimpleStorage(address(simpleStorageArray[_simpleStorageIndex])).store(_simpleStorageNumber);
         listOfSimpleStorageContracts[_simpleStorageIndex].store(
             _simpleStorageNumber
